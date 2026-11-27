@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- paleta del tema CLARO (el oscuro esta en values-night) -->
+    <color name="primario">#FF4F46E5</color>
+    <color name="on_primario">#FFFFFFFF</color>
+    <color name="primario_suave">#FFE0E7FF</color>
+    <color name="on_primario_suave">#FF3730A3</color>
+    <color name="fondo">#FFF6F5F2</color>
+    <color name="tarjeta">#FFFFFFFF</color>
+    <color name="borde">#FFE7E4DE</color>
+    <color name="contorno">#FF8A8694</color>
+    <color name="texto">#FF1C1B1F</color>
+    <color name="texto_sec">#FF6B6875</color>
+    <color name="icono">#FF57535F</color>
+    <color name="favorito">#FFE11D48</color>
+    <color name="disponible_texto">#FF15803D</color>
+    <color name="disponible_fondo">#FFDCFCE7</color>
+    <color name="no_disponible_texto">#FFB91C1C</color>
+    <color name="no_disponible_fondo">#FFFEE2E2</color>
+    <color name="aviso_fondo">#FFFEF3C7</color>
+    <color name="aviso_texto">#FF92400E</color>
+
+    <color name="icono_fondo">#FF4F46E5</color>
+</resources>

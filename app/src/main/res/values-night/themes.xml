@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Explorador" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/on_primario</item>
+        <item name="colorPrimaryContainer">@color/primario_suave</item>
+        <item name="colorOnPrimaryContainer">@color/on_primario_suave</item>
+        <item name="colorSecondaryContainer">@color/primario_suave</item>
+        <item name="colorOnSecondaryContainer">@color/on_primario_suave</item>
+        <item name="colorSurface">@color/tarjeta</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="colorOnSurfaceVariant">@color/texto_sec</item>
+        <item name="colorOutline">@color/contorno</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="colorControlNormal">@color/icono</item>
+    </style>
+</resources>

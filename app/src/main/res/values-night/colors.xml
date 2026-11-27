@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- paleta del tema OSCURO -->
+    <color name="primario">#FFA5B4FC</color>
+    <color name="on_primario">#FF1E1B4B</color>
+    <color name="primario_suave">#FF312E81</color>
+    <color name="on_primario_suave">#FFE0E7FF</color>
+    <color name="fondo">#FF121216</color>
+    <color name="tarjeta">#FF1C1C22</color>
+    <color name="borde">#FF2C2C35</color>
+    <color name="contorno">#FF8E8A99</color>
+    <color name="texto">#FFECEAF2</color>
+    <color name="texto_sec">#FFA9A6B4</color>
+    <color name="icono">#FFC9C6D3</color>
+    <color name="favorito">#FFFB7185</color>
+    <color name="disponible_texto">#FF86EFAC</color>
+    <color name="disponible_fondo">#FF14532D</color>
+    <color name="no_disponible_texto">#FFFCA5A5</color>
+    <color name="no_disponible_fondo">#FF7F1D1D</color>
+    <color name="aviso_fondo">#FF422006</color>
+    <color name="aviso_texto">#FFFCD34D</color>
+</resources>

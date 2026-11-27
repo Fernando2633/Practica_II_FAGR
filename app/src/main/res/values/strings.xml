@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Explorador de Libros</string>
+
+    <!-- Pantalla 1: Bienvenida -->
+    <string name="etiqueta_app">EXPLORADOR DE LIBROS</string>
+    <string name="tecnologias">Retrofit · Room · SharedPreferences</string>
+    <string name="saludo_nombre">¡Hola, %1$s! 👋</string>
+    <string name="saludo_sin_nombre">¡Bienvenido! 👋</string>
+    <string name="subtitulo_bienvenida">¿Qué vas a leer hoy?</string>
+    <string name="explorar_catalogo">Explorar catálogo</string>
+    <string name="mis_favoritos">Mis favoritos</string>
+    <string name="mis_favoritos_n">Mis favoritos (%1$d)</string>
+    <string name="continuar_en">Continuar en %1$s</string>
+    <string name="tu_nombre">Tu nombre o alias</string>
+    <string name="tu_nombre_desc">Lo usamos para darte la bienvenida.</string>
+    <string name="hint_nombre">Nombre o alias</string>
+    <string name="guardar">Guardar</string>
+    <string name="error_nombre_vacio">Escribe tu nombre o alias</string>
+    <string name="nombre_guardado">¡Listo! Te saludaremos como %1$s</string>
+    <string name="tema_visual">Tema visual</string>
+    <string name="tema_visual_desc">Se queda guardado aunque cierres la app.</string>
+    <string name="tema_claro">Claro</string>
+    <string name="tema_oscuro">Oscuro</string>
+    <string name="tema_sistema">Sistema</string>
+    <string name="preferencias_guardadas">Preferencias guardadas</string>
+    <string name="preferencias_guardadas_desc">Leídas con SharedPreferences al abrir la app.</string>
+    <string name="pref_nombre">Nombre</string>
+    <string name="pref_tema">Tema</string>
+    <string name="pref_seccion">Última sección</string>
+    <string name="pref_visita">Última visita</string>
+    <string name="pref_favoritos">Favoritos guardados (Room)</string>
+    <string name="sin_registrar">Sin registrar</string>
+    <string name="ninguna_todavia">Ninguna todavía</string>
+    <string name="primera_visita">Es tu primera visita</string>
+    <string name="seccion_catalogo">Catálogo</string>
+    <string name="seccion_favoritos">Favoritos</string>
+    <string name="pie_api">Catálogo obtenido de la API REST de Biblioteca</string>
+
+    <!-- Pantalla 2: Catalogo -->
+    <string name="catalogo">Catálogo</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="buscar_libros">Buscar por título, autor o editorial</string>
+    <string name="solo_disponibles">Solo disponibles</string>
+    <string name="resumen_catalogo">%1$d de %2$d libros · %3$d disponibles</string>
+    <string name="n_libros">%1$d libros en el servidor</string>
+    <string name="actualizando">Actualizando…</string>
+    <string name="cargando_catalogo">Cargando catálogo…</string>
+    <string name="cargando_nota">Si el servidor estaba dormido puede tardar hasta un minuto en responder.</string>
+    <string name="error_titulo">No se pudo cargar el catálogo</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="ver_favoritos_offline">Ver mis favoritos (sin internet)</string>
+    <string name="sin_coincidencias">No hay libros que coincidan con tu búsqueda</string>
+    <string name="catalogo_actualizado">Catálogo actualizado: %1$d libros</string>
+    <string name="paginas_corto">%1$d págs.</string>
+    <string name="id_libro">#%1$d</string>
+    <string name="disponible">Disponible</string>
+    <string name="no_disponible">No disponible</string>
+    <string name="agregar_favorito">Agregar a favoritos</string>
+    <string name="quitar_favorito">Quitar de favoritos</string>
+    <string name="guardado_en_favoritos">Guardado en favoritos ❤</string>
+    <string name="quitado_de_favoritos">Se quitó de favoritos</string>
+    <string name="ver">Ver</string>
+
+    <!-- Pantalla 3: Detalle -->
+    <string name="detalle_libro">Detalle del libro</string>
+    <string name="informacion">Información del libro</string>
+    <string name="campo_id">ID</string>
+    <string name="campo_titulo">Título</string>
+    <string name="campo_autor">Autor</string>
+    <string name="campo_editorial">Editorial</string>
+    <string name="campo_paginas">Número de páginas</string>
+    <string name="campo_disponibilidad">Disponibilidad</string>
+    <string name="cargando_detalle">Consultando el libro…</string>
+    <string name="error_detalle_titulo">No se pudo consultar el libro</string>
+    <string name="fuente_servidor">Datos actualizados del servidor</string>
+    <string name="fuente_local">Sin conexión: mostrando la copia guardada en tu dispositivo</string>
+    <string name="fuente_catalogo">No se pudo actualizar: mostrando los datos del catálogo</string>
+    <string name="estado_es_favorito">Guardado en tu dispositivo ✓ Lo puedes ver sin internet</string>
+    <string name="estado_no_favorito">Al guardarlo podrás consultarlo sin conexión</string>
+
+    <!-- Pantalla 4: Favoritos -->
+    <string name="banner_offline">Guardados con Room: los puedes ver aunque no tengas internet.</string>
+    <string name="n_favoritos">%1$d guardados en el dispositivo</string>
+    <string name="sin_favoritos">Aún no tienes favoritos</string>
+    <string name="sin_favoritos_desc">Toca el ❤ en cualquier libro del catálogo para guardarlo aquí.</string>
+    <string name="ir_catalogo">Ir al catálogo</string>
+    <string name="guardado_el">Guardado el %1$s</string>
+    <string name="eliminado_de_favoritos">«%1$s» se eliminó de favoritos</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!-- errores de red -->
+    <string name="error_sin_internet">Sin conexión a internet. Revisa tu red e inténtalo de nuevo.</string>
+    <string name="error_tiempo">El servidor tardó demasiado en responder. Inténtalo otra vez.</string>
+    <string name="error_404">El libro ya no existe en el servidor (404).</string>
+    <string name="error_servidor">El servidor tuvo un problema (error %1$d). Inténtalo más tarde.</string>
+    <string name="error_http">El servidor respondió con error %1$d</string>
+    <string name="error_respuesta_vacia">El servidor respondió sin datos.</string>
+    <string name="error_desconocido">Ocurrió un error al conectar con el servidor.</string>
+</resources>
